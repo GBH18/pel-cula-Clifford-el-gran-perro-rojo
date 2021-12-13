@@ -1,0 +1,166 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    margin: 0 0 70px 0;
+    padding: 0!important;
+    height: 100%;
+    display: inline-block;
+        width: 100%;
+    width: -moz-available;        
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+.Wallpaper {
+    padding: 0 0 30% 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #181821;
+    border-radius: 5px;
+}
+
+.ConjuntoHeadCont {
+        width: 100%;
+    width: -moz-available;        
+    width: -webkit-fill-available;
+    width: fill-available;
+    position: relative;
+    z-index: 1;
+}
+
+.SingleHead {
+    float: left;
+    width: 120px;
+    margin: -85px 25px 0 15px;
+    overflow: hidden;
+    background: #06060882;
+    background-color: #08090c;
+    background-image: url(../img/lazyload.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 40px;
+    box-shadow: 0 5px 30px 3px #00000069;
+    height: 175px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.SingleContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+    margin: -45px 0 0 0;
+}
+
+.SingleHead img {
+      width: 100%;
+}
+
+.SingleContent h1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px #00000096;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: -10px;
+    padding: 0 10px 0 0;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:600px) 
+
+.SingleContent h1 {
+    font-size: 27px;
+    top: 0;
+}
+
+.Wallpaper {
+    padding: 0 0 45% 0;
+}
+
+.SingleHead {
+    float: left;
+    width: 90px;
+    margin: -55px 25px 0 15px;
+    height: 130px;
+}
+
+@media screen and (max-width:500px) 
+
+.perfilWallpaper a {
+    bottom: 0;
+    position: absolute;
+    right: 70px;
+}
+
+@media screen and (max-width:480px) 
+
+.critWallp .nota {
+    margin: 0 0 0;
+    top: 15px;
+    left: 0;
+    right: initial;
+    border-radius: 0 6px 6px 0;
+}
+
+.SingleHead {
+        position: relative;
+        top: 5px;
+        border-radius: 7px;
+}   
+
+@media screen and (max-width:380px) 
+.SingleContent h1 {
+        font-size: 20px;
+        top: 5px;
+    }
+    
+.Wallpaper {
+        padding: 0 0 55% 0;
+}
+
+.play{
+				text-decoration:none;
+				font-weight: 600;
+				font-size: 20px;
+				color:#333333;
+				padding-top:5px;
+				padding-bottom:5px;
+				padding-left:5px;
+				padding-right:5px;
+				background-color:#fff;
+				border-color: #d8d8d8;
+				border-width: 3px;
+				border-style: solid;
+				border-radius:35px;
+				font-weight:2000;
+
+		   position: relative;
+				top: 20px;
+  
+}
+
+.play:hover {
+  background: #cac4b0;
+  color: black !important;
+}
+
+
+
+.genero{
+				position: relative;
+				left: 130px;
+}
